@@ -1,0 +1,60 @@
+DATA QUALITY AUDIT
+
+Dataset Shape:
+(1194, 31)
+
+Missing Values:
+University Admission year                                                    0
+Gender                                                                       0
+Age                                                                          0
+H.S.C passing year                                                           0
+Program                                                                      0
+Current Semester                                                             0
+Do you have meritorious scholarship ?                                        0
+Do you use University transportation?                                        0
+How many hour do you study daily?                                            0
+How many times do you seat for study in a day?                               0
+What is your preferable learning mode?                                       0
+Do you use smart phone?                                                      0
+Do you have personal Computer?                                               0
+How many hour do you spent daily in social media?                            0
+Status of your English language proficiency                                  0
+Average attendance on class                                                  1
+Did you ever fall in probation?                                              0
+Did you ever got suspension?                                                 0
+Do you attend in teacher consultancy for any kind of academical problems?    0
+What are the skills do you have ?                                            1
+How many hour do you spent daily on your skill development?                  0
+What is you interested area?                                                 0
+What is your relationship status?                                            0
+Are you engaged with any co-curriculum activities?                           0
+With whom you are living with?                                               0
+Do you have any health issues?                                               0
+What was your previous SGPA?                                                 0
+Do you have any physical disabilities?                                       0
+What is your current CGPA?                                                   0
+How many Credit did you have completed?                                      0
+What is your monthly family income?                                          0
+
+Academic Correlation:
+                                                             What was your previous SGPA?  What is your current CGPA?
+University Admission year                                                          -0.086                      -0.113
+Age                                                                                 0.021                       0.066
+H.S.C passing year                                                                 -0.175                      -0.054
+Current Semester                                                                   -0.054                       0.178
+How many hour do you study daily?                                                   0.044                       0.024
+How many times do you seat for study in a day?                                      0.008                       0.049
+How many hour do you spent daily in social media?                                  -0.179                      -0.053
+Average attendance on class                                                         0.145                       0.065
+How many hour do you spent daily on your skill development?                         0.003                       0.083
+What was your previous SGPA?                                                        1.000                       0.755
+What is your current CGPA?                                                          0.755                       1.000
+How many Credit did you have completed?                                            -0.126                       0.222
+What is your monthly family income?                                                -0.122                      -0.000
+
+Health Categories:
+Do you have any health issues?
+No     983
+Yes    207
+no       3
+N        1

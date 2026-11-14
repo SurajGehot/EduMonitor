@@ -1,0 +1,223 @@
+
+===========================================================================
+ 1. DATASET OVERVIEW
+===========================================================================
+
+Dataset Name       : Students_Performance_data_set.xlsx
+Total Records      : 1194
+Total Features     : 31
+Total Cells        : 37014
+Duplicate Records  : 0
+Memory Usage       : 1281.71 KB
+
+
+===========================================================================
+ 2. FEATURE INFORMATION
+===========================================================================
+                                                                  Feature Data Type  Unique Values  Missing Values
+                                                University Admission year     int64             11               0
+                                                                   Gender       str              2               0
+                                                                      Age     int64             10               0
+                                                       H.S.C passing year     int64             12               0
+                                                                  Program       str              1               0
+                                                         Current Semester     int64             22               0
+                                    Do you have meritorious scholarship ?       str              2               0
+                                    Do you use University transportation?       str              2               0
+                                        How many hour do you study daily?     int64             12               0
+                           How many times do you seat for study in a day?     int64              8               0
+                                   What is your preferable learning mode?       str              2               0
+                                                  Do you use smart phone?       str              2               0
+                                           Do you have personal Computer?       str              2               0
+                        How many hour do you spent daily in social media?     int64             16               0
+                              Status of your English language proficiency       str              3               0
+                                              Average attendance on class    object             66               0
+                                          Did you ever fall in probation?       str              2               0
+                                             Did you ever got suspension?       str              2               0
+Do you attend in teacher consultancy for any kind of academical problems?       str              2               0
+                                        What are the skills do you have ?       str             55               1
+              How many hour do you spent daily on your skill development?     int64             12               0
+                                             What is you interested area?       str             25               0
+                                        What is your relationship status?       str              5               0
+                       Are you engaged with any co-curriculum activities?       str              2               0
+                                           With whom you are living with?       str              2               0
+                                           Do you have any health issues?       str              4               0
+                                             What was your previous SGPA?   float64            249               0
+                                   Do you have any physical disabilities?       str              2               0
+                                               What is your current CGPA?   float64            188               0
+                                  How many Credit did you have completed?     int64            130               0
+                                      What is your monthly family income?     int64            137               0
+
+===========================================================================
+ 3. MISSING VALUE ANALYSIS
+===========================================================================
+What are the skills do you have ?    1
+
+===========================================================================
+ 4. NUMERICAL FEATURE SUMMARY
+===========================================================================
+                                                              count      mean       std     min      25%       50%       75%        max
+University Admission year                                    1194.0   2020.52      1.35  2013.0   2020.0   2021.00   2022.00     2023.0
+Age                                                          1194.0     21.34      1.61    18.0     20.0     21.00     22.00       27.0
+H.S.C passing year                                           1194.0   2019.21      1.38  2012.0   2019.0   2020.00   2020.00     2028.0
+Current Semester                                             1194.0      6.54      3.81     1.0      3.0      7.00     10.00       24.0
+How many hour do you study daily?                            1194.0      3.13      1.65     0.0      2.0      3.00      4.00       13.0
+How many times do you seat for study in a day?               1194.0      1.94      0.86     0.0      1.0      2.00      2.00        7.0
+How many hour do you spent daily in social media?            1194.0      3.29      2.29     0.0      2.0      3.00      4.00       20.0
+How many hour do you spent daily on your skill development?  1194.0      2.19      1.30     0.0      1.0      2.00      3.00       12.0
+What was your previous SGPA?                                 1194.0      2.68      0.87     0.0      2.2      2.68      3.38        4.0
+What is your current CGPA?                                   1194.0      3.17      0.75     0.0      2.9      3.21      3.67        4.0
+How many Credit did you have completed?                      1194.0     71.84     48.07     0.0     23.0     78.00    117.00      145.0
+What is your monthly family income?                          1194.0  62488.12  76173.56  4000.0  30000.0  50000.00  74000.00  2000000.0
+
+===========================================================================
+ 5. CATEGORICAL FEATURE SUMMARY
+===========================================================================
+
+Gender
+Gender
+Male      672
+Female    522
+Name: count, dtype: int64
+
+Program
+Program
+BCSE    1194
+Name: count, dtype: int64
+
+Do you have meritorious scholarship ?
+Do you have meritorious scholarship ?
+No     671
+Yes    523
+Name: count, dtype: int64
+
+Do you use University transportation?
+Do you use University transportation?
+No     697
+Yes    497
+Name: count, dtype: int64
+
+What is your preferable learning mode?
+What is your preferable learning mode?
+Offline    858
+Online     336
+Name: count, dtype: int64
+
+Do you use smart phone?
+Do you use smart phone?
+Yes    1178
+No       16
+Name: count, dtype: int64
+
+Do you have personal Computer?
+Do you have personal Computer?
+Yes    1095
+No       99
+Name: count, dtype: int64
+
+Status of your English language proficiency
+Status of your English language proficiency
+Intermediate    670
+Basic           304
+Advance         220
+Name: count, dtype: int64
+
+Average attendance on class
+Average attendance on class
+100    357
+90     182
+95     107
+80      93
+98      53
+70      50
+99      47
+85      36
+Name: count, dtype: int64
+
+Did you ever fall in probation?
+Did you ever fall in probation?
+No     896
+Yes    298
+Name: count, dtype: int64
+
+Did you ever got suspension?
+Did you ever got suspension?
+No     1148
+Yes      46
+Name: count, dtype: int64
+
+Do you attend in teacher consultancy for any kind of academical problems?
+Do you attend in teacher consultancy for any kind of academical problems?
+Yes    659
+No     535
+Name: count, dtype: int64
+
+What are the skills do you have ?
+What are the skills do you have ?
+Programming                533
+Web development            251
+Networking                 153
+Cyber security              87
+Artificial Intelligence     51
+Machine Learning            37
+Software Development        23
+Nothing                      4
+Name: count, dtype: int64
+
+What is you interested area?
+What is you interested area?
+Software                   648
+Hardware                   165
+Data Science               132
+UI/UX                       84
+NETWORKING                  58
+Machine Learning            56
+Artificial Intelligence     29
+Web development              2
+Name: count, dtype: int64
+
+What is your relationship status?
+What is your relationship status?
+Single               896
+Relationship         186
+Married               96
+Engaged               15
+In a relationship      1
+Name: count, dtype: int64
+
+Are you engaged with any co-curriculum activities?
+Are you engaged with any co-curriculum activities?
+No     689
+Yes    505
+Name: count, dtype: int64
+
+With whom you are living with?
+With whom you are living with?
+Family      642
+Bachelor    552
+Name: count, dtype: int64
+
+Do you have any health issues?
+Do you have any health issues?
+No     983
+Yes    207
+no       3
+N        1
+Name: count, dtype: int64
+
+Do you have any physical disabilities?
+Do you have any physical disabilities?
+No     1167
+Yes      27
+Name: count, dtype: int64
+
+===========================================================================
+ 6. ATTENDANCE DATA VALIDATION
+===========================================================================
+
+Original Data Type : object
+Numeric Values     : 1193
+Invalid Values     : 1
+Minimum            : 0.0
+Maximum            : 100.0
+Mean               : 88.25
+Unique Values      : 65
