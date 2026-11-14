@@ -210,7 +210,7 @@ StudentAcademicEarlyWarning/
 
 ```bash
 
-git clone https://github.com/YOUR\_USERNAME/EduMonitor.git
+git clone https://github.com/HOST_USERNAME/EduMonitor.git
 
 cd EduMonitor
 
